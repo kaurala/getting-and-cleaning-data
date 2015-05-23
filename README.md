@@ -42,21 +42,42 @@ to a tidy data from raw data, a descriptive table of variables.
 
 2. Description of varibles
 
-* The variables come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+There are 68 variables in the tidydata I submitted. the description of all varibles are as follows.
 
-* The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
+* subject : An identifier of person who carried out the experiment.
+* activity: including six activities(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+* split apart the remaining variables.
+
+        txxxxxx : that means time. these time domain signals were captured at a constant rate of 50Hz.
+        fxxxxxx : that indicate frequency domain signals which come from Fast Fourier Transform. 
+        xBodyAcc/xgraivityAcc : that means a acceleration signal which separated into body and gravity acceleration signals.
+        xBodyxxxxJerk : these represent Jerk signal which derived by the body linear acceleration and angular velocity.
+        xxxxxxxxxMag : this means the magnitude of three-dimensional signals which was caculated using the Euclidean norm.
+        -XYZ : 3-axial signals in the X, Y, Z directions.
+        mean(): Mean value.
+        std(): Standard deviation.
         
-* 
-The set of variables that were estimated from these signals are: 
 
-        mean(): Mean value
-        std(): Standard deviation
-        mad(): Median absolute deviation 
-        max(): Largest value in array
-        min(): Smallest value in array
-        sma(): Signal magnitude area
-        energy(): Energy measure. Sum of the squares divided by the number of values. 
-        iqr(): Interquartile range 
-        entropy(): Signal entropy
-        arCoeff(): Autorregresion coefficients with Burg order equal to 4
-        correlation(): correlation coefficient between two signals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
