@@ -49,12 +49,19 @@ There are 68 variables in the tidydata I submitted. the description of all varib
 * split apart the remaining variables.
 
         txxxxxx : that means time. these time domain signals were captured at a constant rate of 50Hz.
+        
         fxxxxxx : that indicate frequency domain signals which come from Fast Fourier Transform. 
+        
         xBodyAcc/xgraivityAcc : that means a acceleration signal which separated into body and gravity acceleration signals.
-        xBodyxxxxJerk : these represent Jerk signal which derived by the body linear acceleration and angular velocity.
+        
+        xxxxxxxxJerk : these represent Jerk signal which derived by the body linear acceleration and angular velocity.
+        
         xxxxxxxxxMag : this means the magnitude of three-dimensional signals which was caculated using the Euclidean norm.
-        -XYZ : 3-axial signals in the X, Y, Z directions.
+        
+        xxxxxx-XYZ : 3-axial signals in the X, Y, Z directions.
+        
         mean(): Mean value.
+        
         std(): Standard deviation.
         
 
