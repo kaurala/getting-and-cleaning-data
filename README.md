@@ -39,7 +39,6 @@ to a tidy data from raw data, a descriptive table of variables.
 
         function : aggregate(), dim(), names(), cbind()
         
------------------------------------------------------------------------------
 
 2. Description of varibles
 
