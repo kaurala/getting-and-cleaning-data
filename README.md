@@ -18,7 +18,7 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 ### Code 
 
 run_analysis.R is for reference only. Any suggestion welcomes.
-Tip £ºReset the work directory where you stored the data before run the code.
+Reset the work directory where you stored the data before run the code.
 
 
 
